@@ -147,12 +147,12 @@ export const Chat: FC<Props> = memo(
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
                 {t(
-                  'Please set your OpenAI API key in the bottom left of the sidebar.',
+                  'ZenDog is accssessing the Open AI Servers.....',
                 )}
               </div>
               <div>
                 {t(
-                  "If you don't have an OpenAI API key, you can get one here: ",
+                  "Have your API KEY ready to proceed......or get one here: ",
                 )}
                 <a
                   href="https://platform.openai.com/account/api-keys"
@@ -182,7 +182,7 @@ export const Chat: FC<Props> = memo(
                           <Spinner size="16px" className="mx-auto" />
                         </div>
                       ) : (
-                        'Chatbot UI'
+                        'ZenDog-UI'
                       )}
                     </div>
 
