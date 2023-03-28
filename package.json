@@ -1,14 +1,15 @@
 {
-  "name": "ai-chatbot-starter",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
+  "name": "zendog",
+  "version": "0.0.1",
+  "description": "user interface for open-ai nat-lang models",
+  "scripts":{
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write ."
-  },
+    "lint": "next lint", 
+  "keywords": "ai,ui",
+  "author": "mojo@psico",
+  "license": "MIT" },
   "dependencies": {
     "@dqbd/tiktoken": "^1.0.2",
     "@tabler/icons-react": "^2.9.0",
