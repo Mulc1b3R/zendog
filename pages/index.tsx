@@ -212,7 +212,7 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
     }
   };
 
-  // FETCH MODELS ----------------------------------------------
+  
 
   const fetchModels = async (key: string) => {
     const error = {
@@ -220,9 +220,9 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
       code: null,
       messageLines: [
         t(
-          'Make sure your OpenAI API key is set in the bottom left of the sidebar.',
+          'Paste your API KEY in the bottom left of the Navbar.',
         ),
-        t('If you completed this step, OpenAI may be experiencing issues.'),
+        t('If you did this...click refresh and type in the box below.'),
       ],
     } as ErrorMessage;
 
@@ -305,7 +305,7 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
     saveConversation(conversation);
   };
 
-  // FOLDER OPERATIONS  --------------------------------------------
+
 
   const handleCreateFolder = (name: string, type: FolderType) => {
     const newFolder: Folder = {
@@ -368,7 +368,7 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
     saveFolders(updatedFolders);
   };
 
-  // CONVERSATION OPERATIONS  --------------------------------------------
+
 
   const handleNewConversation = () => {
     const lastConversation = conversations[conversations.length - 1];
@@ -482,7 +482,7 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
     }
   };
 
-  // PROMPT OPERATIONS --------------------------------------------
+
 
   const handleCreatePrompt = () => {
     const lastPrompt = prompts[prompts.length - 1];
@@ -523,7 +523,7 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
 
   const handleCreatePromptFolder = (name: string) => {};
 
-  // EFFECTS  --------------------------------------------
+
 
   useEffect(() => {
     if (currentMessage) {
@@ -544,7 +544,7 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
     }
   }, [apiKey]);
 
-  // ON LOAD --------------------------------------------
+
 
   useEffect(() => {
     const theme = localStorage.getItem('theme');
@@ -617,13 +617,13 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
   return (
     <>
       <Head>
-        <title>Chatbot UI</title>
-        <meta name="description" content="ChatGPT but better." />
+        <title>Zendog UI</title>
+        <meta name="description" content="ChatGPT made smarter..." />
         <meta
           name="viewport"
           content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </Head>
       {selectedConversation && (
         <main
