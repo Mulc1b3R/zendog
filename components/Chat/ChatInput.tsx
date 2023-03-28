@@ -78,7 +78,7 @@ export const ChatInput: FC<Props> = ({
     }
 
     if (!content) {
-      alert(t('Please enter a message'));
+      alert(t('What would you like to know ?'));
       return;
     }
 
@@ -270,7 +270,7 @@ export const ChatInput: FC<Props> = ({
               }`,
             }}
             placeholder={
-              t('Type a message or type "/" to select a prompt...') || ''
+              t('Type your query or type "/" to select a prompt...') || ''
             }
             value={content}
             rows={1}
@@ -311,16 +311,16 @@ export const ChatInput: FC<Props> = ({
       </div>
       <div className="px-3 pt-2 pb-3 text-center text-[12px] text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
         <a
-          href="https://github.com/mckaywrigley/chatbot-ui"
+          href="https://github.com/psico-mojo/zendog"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          ChatBot UI
+          ZenDog UI
         </a>
         .{' '}
         {t(
-          "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.",
+          "Zendog UI is a user interface for Open AI Generative Pre-trained Transformer....",
         )}
       </div>
     </div>
