@@ -25,13 +25,13 @@ Modify the system prompt in `utils/index.ts`.
 
 To install the official Python bindings, run the following command:
 
-pip install openai
+```pip install openai```
 
 ## Authorization
 
 All API requests should include your API key in an Authorization HTTP header as follows:
 
-Authorization: Bearer OPENAI_API_KEY
+Authorization: Bearer OPENAI_API_KEY= your-openai-api-key
 
   
   Node.js (Orgs)
