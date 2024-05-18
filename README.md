@@ -11,7 +11,7 @@ and requires an API_KEY : https://platform.openai.com/account/api-keys
 Navigate to : https://zendog-eight.vercel.app/ 
 click on Open AI API Key (bottom left) paste your key into the box and click the tick symbol.
 
-Embed zendog in web page : <iframe src="https://zendog-eight.vercel.app/" width="100%" height="600px"></iframe>
+ALT Embed zendog in web page : <iframe src="https://zendog-eight.vercel.app/" width="100%" height="600px"></iframe>
 
 Start making queries...
 
