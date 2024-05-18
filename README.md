@@ -3,45 +3,15 @@
 Built using Next.js, TypeScript, and Tailwind CSS.
 
 zendog is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
-and requires an API_KEY which is free here :https://platform.openai.com/account/api-keys
-The key is pre-loded with $5.00 credit for developement purposes.
-
+and requires an API_KEY : https://platform.openai.com/account/api-keys
+# use
 Navigate to : https://zendog.vercel.app/ 
 click on Open AI API Key (bottom left) paste your key into the box and click the tick symbol.
 
 Start making queries...
 
-****************************************************************************************************************************************************************************
+************************************************************************************************************************************************************************
 
-## Updates
-
-Chatbot UI-Zendog will be updated over the coming weeks.
-on a regular basis
-
-**Next up:**
-
-- [ ] More model settings
-- [ ] Custom themes
-- [ ] Prompt templates
-- [ ] Plugins
-
-**Recent updates:**
-
-- [x] Regenerate & edit responses
-- [x] Folders (3/24/23)
-- [x] Search chat content (3/23/23)
-- [x] Stop message generation (3/22/23)
-- [x] Import/Export chats (3/22/23)
-- [x] Custom system prompt (3/21/23)
-- [x] Error handling (3/20/23)
-- [x] GPT-4 support (access required) (3/20/23)
-- [x] Search conversations (3/19/23)
-- [x] Code syntax highlighting (3/18/23)
-- [x] Toggle sidebar (3/18/23)
-- [x] Conversation naming (3/18/23)
-- [x] Github flavored markdown (3/18/23)
-- [x] Add OpenAI API key in app (3/18/23)
-- [x] Markdown support (3/17/23)
 
 ## Mods...
 
