@@ -8,10 +8,10 @@ zendog is an interface for OpenAI's natural language machine learning models com
 and requires an API_KEY : https://platform.openai.com/account/api-keys
 
 # use...
-Navigate to : https://zendog.vercel.app/ 
+Navigate to : https://zendog-eight.vercel.app/ 
 click on Open AI API Key (bottom left) paste your key into the box and click the tick symbol.
 
-Embed : <iframe src="https://zendog.vercel.app/" width="100%" height="600px"></iframe>
+Embed zendon in web page : <iframe src="https://zendog-eight.vercel.app/" width="100%" height="600px"></iframe>
 
 Start making queries...
 
