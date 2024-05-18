@@ -147,7 +147,7 @@ export const Chat: FC<Props> = memo(
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
                 {t(
-                  'ZenDog is accssessing the Open AI Servers.....',
+                  'Zendog ai',
                 )}
               </div>
               <div>
@@ -182,7 +182,7 @@ export const Chat: FC<Props> = memo(
                           <Spinner size="16px" className="mx-auto" />
                         </div>
                       ) : (
-                        'ZenDog-UI'
+                        'Zendog'
                       )}
                     </div>
 
