@@ -1,4 +1,4 @@
-# Chatbot UI-Zendog
+# Zendog
 
 Built using Next.js, TypeScript, and Tailwind CSS.
 
