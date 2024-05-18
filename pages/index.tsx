@@ -220,9 +220,9 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
       code: null,
       messageLines: [
         t(
-          'Paste your API KEY in the bottom left of the Navbar.',
+          'Paste your API KEY in the bottom left of the side bar.',
         ),
-        t('If you did this...click refresh and type in the box below.'),
+        t('Click the tick symbol and type in the box below.'),
       ],
     } as ErrorMessage;
 
