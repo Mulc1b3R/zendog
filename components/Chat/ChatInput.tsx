@@ -320,7 +320,7 @@ export const ChatInput: FC<Props> = ({
         </a>
         .{' '}
         {t(
-          "Zendog UI is a user interface for Open AI Generative Pre-trained Transformer....",
+          "Zendog User Iterface for Open AI Generative Pre-trained Transformer 3.5 psico communications.",
         )}
       </div>
     </div>
