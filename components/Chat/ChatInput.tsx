@@ -311,7 +311,7 @@ export const ChatInput: FC<Props> = ({
       </div>
       <div className="px-3 pt-2 pb-3 text-center text-[12px] text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
         <a
-          href="https://github.com/psico-mojo/zendog"
+          href="https://github.com/Mulc1b3R/zendog"
           target="_blank"
           rel="noreferrer"
           className="underline"
