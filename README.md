@@ -65,7 +65,7 @@ MariaDB: 3307
 **1. Clone Repo**
 
 ```
-git clone  https://github.com/psico-mojo/zendog (hybrid)
+git clone : https://github.com/Mulc1b3R/zendog.git
 ```
 
 **2. Install Dependencies**
