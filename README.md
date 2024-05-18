@@ -2,7 +2,7 @@
 
 ![zendog](logo.png)
 
-Built using Next.js, TypeScript, and Tailwind CSS.
+listen to the machine ; [Download MP3 File](https://psicodata.io/CDN/zendog.mp3)
 
 zendog is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
 and requires an API_KEY : https://platform.openai.com/account/api-keys
@@ -16,7 +16,7 @@ Embed : <iframe src="https://zendog.vercel.app/" width="100%" height="600px"></i
 Start making queries...
 
 ************************************************************************************************************************************************************************
-
+Built using Next.js, TypeScript, and Tailwind CSS.
 
 ## Mods...
 
