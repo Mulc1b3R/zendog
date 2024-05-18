@@ -1,5 +1,7 @@
 # Zendog
 
+![zendog](logo.png)
+
 Built using Next.js, TypeScript, and Tailwind CSS.
 
 zendog is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
