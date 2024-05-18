@@ -1,7 +1,5 @@
 # Chatbot UI-Zendog
 
-*** Chatbot UI-Zendog is a hybrid of the Chatbot UI codebase , 
-    by mckaywrigley**
 Built using Next.js, TypeScript, and Tailwind CSS.
 
 The project is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
@@ -65,32 +63,6 @@ All API requests should include your API key in an Authorization HTTP header as 
 
 Authorization: Bearer OPENAI_API_KEY
 
-## Deploy
-
-**Vercel**
-
-Host your own live version of Chatbot UI with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
-
-## Alt
-
-More alternatives to follow...
-
-**Replit**
-
-Fork Chatbot UI on Replit [here](https://replit.com/@MckayWrigley/chatbot-ui-pro?v=1).
-
-## Orgs
-
-Requesting organization: 
-
-For users who belong to multiple organizations, you can pass a header to specify which organization is used for an API request. Usage from these API requests will count against the specified organization's subscription quota.
-
-curl https://api.openai.com/v1/models \
-  -H "Authorization: Bearer $OPENAI_API_KEY" \
-  -H "OpenAI-Organization: org-g6Se7pwtJFzrBct5UisL7zAJ"
-  
   
   Node.js (Orgs)
   
@@ -122,13 +94,13 @@ MariaDB: 3307
 
 **1. Clone Repo**
 
-```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git (main) or https://github.com/psico-mojo/zendog (hybrid)
+```
+git clone  https://github.com/psico-mojo/zendog (hybrid)
 ```
 
 **2. Install Dependencies**
 
-```bash
+```
 npm i  
 ```
 
@@ -142,7 +114,7 @@ OPENAI_API_KEY=YOUR_KEY
 
 **4. Run App**
 
-```bash
+```
 npm run dev
 ```
 
@@ -164,7 +136,5 @@ run
 
 ## Contact
 
-mckaywrigley; [Twitter](https://twitter.com/mckaywrigley). MAIN
+mojo@psicodata.io     
 
-mojo ; disobay@proton.me     HYBRID
-***************************************************************************************************************************************************************8********* 
