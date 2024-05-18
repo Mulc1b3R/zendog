@@ -103,9 +103,11 @@ MariaDB Version:
 10.10.2
 
 Download Here : https://www.wampserver.com/en/download-wampserver-64bits/
-clone the repo : git clone https://github.com/mckaywrigley/chatbot-ui.git (main) alt  https://github.com/psico-mojo/zendog (hybrid)
-Install folder in root directory.
-run
+
+## Output
+
+![Blake](fly.png)
+
 
 ## Contact
 
