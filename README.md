@@ -2,7 +2,7 @@
 
 Built using Next.js, TypeScript, and Tailwind CSS.
 
-The project is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
+zendog is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
 and requires an API_KEY which is free here :https://platform.openai.com/account/api-keys
 The key is pre-loded with $5.00 credit for developement purposes.
 
