@@ -2,7 +2,7 @@
 
 ![zendog](logo.png)
 
-listen to the machine ; [Download MP3 File](https://psicodata.io/CDN/zendog.mp3)
+listen to the machine ; [Listen to the machine...](https://psicodata.io/CDN/zendog.mp3)
 
 zendog is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
 and requires an API_KEY : https://platform.openai.com/account/api-keys
