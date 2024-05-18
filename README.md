@@ -4,7 +4,8 @@ Built using Next.js, TypeScript, and Tailwind CSS.
 
 zendog is an interface for OpenAI's natural language machine learning models commonly known as Chat GPT ( “Generative Pre-trained Transformer”
 and requires an API_KEY : https://platform.openai.com/account/api-keys
-# use
+
+# use...
 Navigate to : https://zendog.vercel.app/ 
 click on Open AI API Key (bottom left) paste your key into the box and click the tick symbol.
 
