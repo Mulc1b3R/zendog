@@ -1,15 +1,15 @@
 {
   "name": "zendog",
-  "version": "0.0.1",
-  "description": "user interface for open-ai nat-lang models",
+  "version": "1.0.1",
+  "description": "openai UI 3.5 GPT",
   "scripts":{
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint", 
   "keywords": "ai,ui",
-  "author": "mojo@psico",
-  "license": "MIT" },
+  "author": "mulciber",
+  "license": "apache 2.0" },
   "dependencies": {
     "@dqbd/tiktoken": "^1.0.2",
     "@tabler/icons-react": "^2.9.0",
