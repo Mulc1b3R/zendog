@@ -34,10 +34,7 @@ export const cleanSelectedConversation = (conversation: Conversation) => {
 };
 
 export const cleanConversationHistory = (history: Conversation[]) => {
-  // added model for each conversation (3/20/23)
-  // added system prompt for each conversation (3/21/23)
-  // added folders (3/23/23)
-  // added prompts (3/26/23)
+ 
 
   return history.reduce((acc: Conversation[], conversation) => {
     try {
@@ -57,7 +54,7 @@ export const cleanConversationHistory = (history: Conversation[]) => {
       return acc;
     } catch (error) {
       console.warn(
-        `error while cleaning conversations' history. Removing culprit`,
+        `god knows what happened there...please contact mulciber...`,
         error,
       );
     }
