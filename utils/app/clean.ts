@@ -15,7 +15,7 @@ export const cleanSelectedConversation = (conversation: Conversation) => {
     };
   }
 
-  // check for system prompt on each conversation
+  
   if (!updatedConversation.prompt) {
     updatedConversation = {
       ...updatedConversation,
