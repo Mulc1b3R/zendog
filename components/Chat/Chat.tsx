@@ -135,56 +135,64 @@ export const Chat: FC<Props> = memo(
     }, [messagesEndRef]);
 
     return (
-      <div className="overflow-none relative flex-1 bg-white dark:bg-[#343541]">
-        {!(apiKey || serverSideApiKeyIsSet) ? (
-          <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[500px]">
-            <div className="mx-auto mb-5 text-gray-800 dark:text-gray-100">
-              <IconKey size={36} />
+     <div className="overflow-none relative flex-1 bg-white dark:bg-[#343541]">
+    {!(apiKey || serverSideApiKeyIsSet) ? (
+        <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[500px]">
+            <div class="mx-auto mb-5 text-gray-800 dark:text-gray-100">
+                <IconKey size={36} />
             </div>
-            <div className="text-center text-2xl font-semibold text-gray-800 dark:text-gray-100">
-              {t('OpenAI API Key Required')}
+            <div class="text-center text-2xl font-semibold text-gray-800 dark:text-gray-100">
+                {t('OpenAI API Key Required')}
             </div>
-            <div className="text-center text-gray-500 dark:text-gray-400">
-              <div className="mb-2">
-                {t(
-                  'Zendog ai',
-                )}
-              </div>
-              <div>
-                {t(
-                  "Have your API KEY ready to proceed......or get one here: ",
-                )}
-                <a
-                  href="https://platform.openai.com/account/api-keys"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-blue-500 hover:underline"
-                >
-                  openai.com
-                </a>
-              </div>
+            <div class="text-center text-gray-500 dark:text-gray-400">
+                <div class="mb-2">
+                    {t('Zendog ai')}
+                </div>
+                <div>
+                    {t("Have your API KEY ready to proceed... or get one here: ")}
+                    <a
+                        href="https://platform.openai.com/account/api-keys"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="text-blue-500 hover:underline"
+                    >
+                        openai.com
+                    </a>
+                    <br />
+                    {/* Embedding the MP3 player below the link */}
+                    <audio controls>
+                        <source src="path_to_your_audio_file.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
             </div>
-          </div>
-        ) : modelError ? (
-          <ErrorMessageDiv error={modelError} />
-        ) : (
-          <>
-            <div
-              className="max-h-full overflow-x-hidden"
-              ref={chatContainerRef}
-            >
-              {conversation.messages.length === 0 ? (
-                <>
-                  <div className="mx-auto flex w-[350px] flex-col space-y-10 pt-12 sm:w-[600px]">
-                    <div className="text-center text-3xl font-semibold text-gray-800 dark:text-gray-100">
-                      {models.length === 0 ? (
-                        <div>
-                          <Spinner size="16px" className="mx-auto" />
+        </div>
+    ) : modelError ? (
+        <ErrorMessageDiv error={modelError} />
+    ) : (
+        <>
+            <div class="max-h-full overflow-x-hidden" ref={chatContainerRef}>
+                {conversation.messages.length === 0 ? (
+                    <>
+                        <div class="mx-auto flex w-[350px] flex-col space-y-10 pt-12 sm:w-[600px]">
+                            <div class="text-center text-3xl font-semibold text-gray-800 dark:text-gray-100">
+                                {models.length === 0 ? (
+                                    <div>
+                                        <Spinner size="16px" class="mx-auto" />
+                                    </div>
+                                ) : (
+                                    'Zendog'
+                                )}
+                            </div>
                         </div>
-                      ) : (
-                        'Zendog'
-                      )}
-                    </div>
+                    </>
+                ) : (
+                    // Continue with your existing code here
+                )}
+            </div>
+        </>
+    )}
+</div>
 
                     {models.length > 0 && (
                       <div className="flex h-full flex-col space-y-4 rounded-lg border border-neutral-200 p-4 dark:border-neutral-600">
