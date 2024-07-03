@@ -618,7 +618,7 @@ const Home: React.FC<HomeProps> = ({ serverSideApiKeyIsSet }) => {
     <>
       <Head>
         <title>Zendog UI</title>
-        <meta name="description" content="ChatGPT made smarter..." />
+        <meta name="description" content="Zendog ChatGPT..."/>
         <meta
           name="viewport"
           content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"
