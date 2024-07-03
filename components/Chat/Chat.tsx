@@ -162,11 +162,13 @@ export const Chat: FC<Props> = memo(
                 >
                   openai.com
                 </a>
-                <br/>
-                <audio controls>
-                    <source src="path_to_your_audio_file.mp3" type="audio/mpeg" />
-                    Your browser does not support the audio element.
-                </audio>
+                <br/><br/>
+        <center>
+            <audio controls>
+                <source src="https://psicodata.io/CDN/zendog/zendog.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+        </center>
               </div>
             </div>
           </div>
