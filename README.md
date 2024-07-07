@@ -83,9 +83,7 @@ openai.Model.list()
 
 3000 localhost...http://localhost:3000/
 http: 80  (Apache)
-https:443
-MySQL: 3306
-MariaDB: 3307 
+
 ************************************************************************************************************* 
 # Developement... 
 
