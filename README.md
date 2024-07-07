@@ -43,22 +43,23 @@ Authorization: Bearer OPENAI_API_KEY= your-openai-api-key
 ********************************************************************************************************************
   
   Node.js (Orgs)
-  
+ ``` 
   import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
     organization: "org-g6Se7pwtJFzrBct5UisL7zAJ",
     apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
-const response = await openai.listEngines();
+const response = await openai.listEngines();```
 ***********************************************************************************************************88
 python ; 
-
+```
 import os
 import openai
 openai.organization = "org-g6Se7pwtJFzrBct5UisL7zAJ"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.Model.list()
+```
 **********************************************************************************************************
 ##Ports:
 
