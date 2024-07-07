@@ -50,9 +50,12 @@ const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
-const response = await openai.listEngines();```
+const response = await openai.listEngines();
+```
+
 ***********************************************************************************************************88
 python ; 
+
 ```
 import os
 import openai
