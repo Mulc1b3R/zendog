@@ -8,7 +8,7 @@ listen to the machine ; [Listen to the machine...](https://psicodata.io/CDN/zend
 * An api key is required for use.
 *  API_KEY : https://platform.openai.com/account/api-keys
 
-# Using zendog
+# Using zendog...
 Navigate to : https://zendog-eight.vercel.app/ 
 * Click on Open AI API Key (bottom left) paste your key into the box and click the tick symbol.
 * You can add the UI to any webpage using the iframe script below.
@@ -21,7 +21,7 @@ Navigate to : https://zendog-eight.vercel.app/
 * ```zendog.html``` is a ready made page for non coders , just grab it from the repo and add it to your website
   and create a link to the page from your main page.   
 **********************************************************************************************************************
-# Tech
+# Tech...
 Built using ```Node.js``` , ```Next.js```, ```TypeScript```,  ```Tailwind CSS``` and ```React```.
 *************************************************************************************************************************
 # Mods...
@@ -35,7 +35,14 @@ Modify the chat interface in `components/Chat`.
 * Modify the system prompt in `utils/index.ts`.
 * Edit code as required
 ************************************************************************************************************************
-# Python
+# Audio...
+* Audio files are created by writing you text in a text editor and pasting the txt in to Zendog 'Eve'.
+* EVE is an 'Electronic voice emulator' : https://eve-red.vercel.app/
+* Select required voice and click  ```create mp3``` , then ```Download```.
+* Put the mp3 somewhere and write a path to it...
+************************************************************************************************************************
+
+# Python...
 *Python3
 
 To install the official Python bindings, run the following command:
@@ -49,7 +56,8 @@ All API requests should include your API key in an Authorization HTTP header as 
 Authorization: Bearer OPENAI_API_KEY= your-openai-api-key
 ********************************************************************************************************************
   
- # Node.js 
+ # Node.js...
+ 
  ``` 
   import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
@@ -61,7 +69,7 @@ const response = await openai.listEngines();
 ```
 
 
-# python ; 
+# python... 
 
 ```
 import os
@@ -71,7 +79,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.Model.list()
 ```
 **********************************************************************************************************
-# Ports:
+# Ports...
 
 3000 localhost...http://localhost:3000/
 http: 80  (Apache)
@@ -79,7 +87,7 @@ https:443
 MySQL: 3306
 MariaDB: 3307 
 ************************************************************************************************************* 
-# Developement 
+# Developement... 
 
 **1. Clone Repo**
 
@@ -123,13 +131,14 @@ MySQL 8.2.0
 PHP 7.0 to 7.4, 8.0, 8.1, 8.2, 8.3
 Dowload Here: https://sourceforge.net/projects/miniserver/files/Uniform%20Server%20ZeroXV/
 
-## Output
+## Output...
 
 ![Blake](fly.png)
 
 *****************************************************************************************************************************
 
-## Contact
+## Contact...
+
 * Any questions ?
 * Drop us a line @
 
