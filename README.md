@@ -123,6 +123,10 @@ Dowload Here: https://sourceforge.net/projects/miniserver/files/Uniform%20Server
 
 ## Contact
 
-mojo@psicodata.io 
-disobay@proton.me
+* mojo@psicodata.io 
+* disobay@proton.me
+
+  ```
+  MADE IN YORKSHIRE
+  ```
 
