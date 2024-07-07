@@ -10,7 +10,7 @@ listen to the machine ; [Listen to the machine...](https://psicodata.io/CDN/zend
 
 # Using zendog
 Navigate to : https://zendog-eight.vercel.app/ 
-Click on Open AI API Key (bottom left) paste your key into the box and click the tick symbol.
+* Click on Open AI API Key (bottom left) paste your key into the box and click the tick symbol.
 * You can add the UI to any webpage using the iframe script below.
 * Embed zendog in web page :
 
