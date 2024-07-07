@@ -17,7 +17,7 @@ Click on Open AI API Key (bottom left) paste your key into the box and click the
 # Tech
 Built using ```Node.js``` , ```Next.js```, ```TypeScript```, and ```Tailwind CSS```.
 *************************************************************************************************************************
-## Mods...
+# Mods...
 * Make copies , test copies , swap them out if no problems occur.
 * Clone : ```https://github.com/Mulc1b3R/zendog.git```
 
@@ -28,14 +28,14 @@ Modify the chat interface in `components/Chat`.
 * Modify the system prompt in `utils/index.ts`.
 * Edit code as required
 ************************************************************************************************************************
-## Python
+# Python
 *Python3
 
 To install the official Python bindings, run the following command:
 
 ```pip install openai```
 ********************************************************************************************************************
-## Authorization
+# Authorization
 
 All API requests should include your API key in an Authorization HTTP header as follows:
 
@@ -64,7 +64,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.Model.list()
 ```
 **********************************************************************************************************
-##Ports:
+# Ports:
 
 3000 localhost...http://localhost:3000/
 http: 80  (Apache)
@@ -72,7 +72,7 @@ https:443
 MySQL: 3306
 MariaDB: 3307 
 ************************************************************************************************************* 
-## Developement 
+# Developement 
 
 **1. Clone Repo**
 
@@ -120,13 +120,17 @@ Dowload Here: https://sourceforge.net/projects/miniserver/files/Uniform%20Server
 
 ![Blake](fly.png)
 
+*****************************************************************************************************************************
 
 ## Contact
+* Any questions ?
+* Drop us a line @
 
 * mojo@psicodata.io 
 * disobay@proton.me
+*******************************************************************************************************************************
 
   ```
-  MADE IN YORKSHIRE
+  MADE IN YORKSHIRE BY PSICO COMMUNICATIONS.
   ```
 
