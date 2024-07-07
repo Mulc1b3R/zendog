@@ -15,7 +15,7 @@ Navigate to : https://zendog-eight.vercel.app/
 * Embed zendog in web page :
 
    ```
-  <iframe src="https://zendog-eight.vercel.app/" width="100%" height="1000px"></iframe>
+  <center><iframe src="https://zendog-eight.vercel.app/" width="100%" height="1000px"></iframe></center>
    ```
 
 * ```zendog.html``` is a ready made page for non coders , just grab it from the repo and add it to your website
