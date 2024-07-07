@@ -42,7 +42,7 @@ All API requests should include your API key in an Authorization HTTP header as 
 Authorization: Bearer OPENAI_API_KEY= your-openai-api-key
 ********************************************************************************************************************
   
-  Node.js (Orgs)
+ # Node.js 
  ``` 
   import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
@@ -53,8 +53,8 @@ const openai = new OpenAIApi(configuration);
 const response = await openai.listEngines();
 ```
 
-***********************************************************************************************************88
-python ; 
+
+# python ; 
 
 ```
 import os
