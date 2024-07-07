@@ -19,13 +19,13 @@ Built using ```Node.js``` , ```Next.js```, ```TypeScript```, and ```Tailwind CSS
 *************************************************************************************************************************
 ## Mods...
 * Make copies , test copies , swap them out if no problems occur.
-* Clone : ```
+* Clone : ```https://github.com/Mulc1b3R/zendog.git```
 
 Modify the chat interface in `components/Chat`.
 * Add required html
-Modify the sidebar interface in `components/Sidebar`.
+* Modify the sidebar interface in `components/Sidebar`.
 * Edit code as required
-Modify the system prompt in `utils/index.ts`.
+* Modify the system prompt in `utils/index.ts`.
 * Edit code as required
 ************************************************************************************************************************
 ## Python
