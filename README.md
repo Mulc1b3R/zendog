@@ -36,7 +36,7 @@ Modify the chat interface in `components/Chat`.
 * Edit code as required
 ************************************************************************************************************************
 # Audio...
-* Audio files are created by writing you text in a text editor and pasting the txt in to Zendog 'Eve'.
+* Audio files are created by writing your text in a text editor and pasting the txt in to Zendog 'Eve'.
 * EVE is an 'Electronic voice emulator' : https://eve-red.vercel.app/
 * Select required voice and click  ```create mp3``` , then ```Download```.
 * Put the mp3 somewhere and write a path to it...
