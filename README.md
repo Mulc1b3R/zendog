@@ -22,7 +22,7 @@ Navigate to : https://zendog-eight.vercel.app/
   and create a link to the page from your main page.   
 **********************************************************************************************************************
 # Tech
-Built using ```Node.js``` , ```Next.js```, ```TypeScript```, and ```Tailwind CSS```.
+Built using ```Node.js``` , ```Next.js```, ```TypeScript```,  ```Tailwind CSS``` and ```React```.
 *************************************************************************************************************************
 # Mods...
 * Make copies , test copies , swap them out if no problems occur.
