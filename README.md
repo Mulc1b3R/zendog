@@ -17,6 +17,9 @@ Click on Open AI API Key (bottom left) paste your key into the box and click the
    ```
   <iframe src="https://zendog-eight.vercel.app/" width="100%" height="1000px"></iframe>
    ```
+
+* ```zendog.html``` is a ready made page for non coders , just grab it from the repo and add it to your website
+  and create a link to the page from your main page.   
 **********************************************************************************************************************
 # Tech
 Built using ```Node.js``` , ```Next.js```, ```TypeScript```, and ```Tailwind CSS```.
