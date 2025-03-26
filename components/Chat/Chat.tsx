@@ -165,7 +165,7 @@ export const Chat: FC<Props> = memo(
                 <br/><br/>
         <center>
             <audio controls>
-                <source src="https://psicodata.io/CDN/zendog/zendog.mp3" type="audio/mpeg" />
+                <source src="https://archive.org/download/vangelis-07.-blade-runner-blues/1993%20-%20Vangelis%20-%20Blade%20Runner%20%282013%2C%20Audio%20Fidelity%2C%20LP%209624%2C%20US%2C%2024-96%29/A2%20-%20Blush%20Response.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
             </audio>
         </center>
