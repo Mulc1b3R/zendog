@@ -2,7 +2,7 @@
 
 ![zendog](logo.png)
 
-listen to the machine ; [Listen to the machine...](https://psicodata.io/CDN/zendog.mp3)
+listen to the machine ; [Listen to the machine...](https://archive.org/download/vangelis-07.-blade-runner-blues/1993%20-%20Vangelis%20-%20Blade%20Runner%20%282013%2C%20Audio%20Fidelity%2C%20LP%209624%2C%20US%2C%2024-96%29/A2%20-%20Blush%20Response.mp3)
 ******************************************************************************************************************
 * Zendog is a UI for OpenAI's natural language machine learning models commonly known as Chat GPT  “Generative Pre-trained Transformer”
 * An api key is required for use.
