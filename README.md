@@ -140,7 +140,7 @@ Dowload Here: https://sourceforge.net/projects/miniserver/files/Uniform%20Server
 * Any questions ?
 * Drop us a line @
 
-* mojo@psicodata.io 
+* psicomojo@proton.me 
 * disobay@proton.me
 *******************************************************************************************************************************
 
